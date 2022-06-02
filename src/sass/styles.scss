@@ -1,0 +1,156 @@
+.hide {
+	display: none!important;
+}
+
+.laravel-logo {
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.central-logo {
+	max-width: 300px;
+}
+
+.small-logo-area {
+	margin: 0 20px 10px 10px;
+}
+
+.small-logo {
+	width: 75px;
+	height: 75px;
+}
+
+.whitesmoke {
+	background-color: whitesmoke!important;
+}
+
+.dashboard {
+	padding-top: 1em;
+	background-color: white;
+	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.user-name::after {
+	content: "";
+	display: block;
+	height: 7px;
+	width: 7px;
+	border-top: 1px solid #656565;
+	border-right: 1px solid #656565;
+	transform: translateY(5px) rotate(135deg);
+	float: right;
+	margin: 2px 0 0 5px;
+
+}
+
+
+.logo-menu {
+	font-size: 1.25rem;
+	max-height: 30px;
+	border-bottom: 2px solid #bdbdbd;
+	padding: 35px 15px;
+}
+
+.burger-area {
+	width: 100%;
+}
+
+.burger-area .active-menu {
+	display: block!important;
+}
+
+.navbar-burger {
+	color: #000!important;
+	height: 3rem!important;
+	width: 3rem!important;
+
+	background-color: rgb(243, 244, 246);
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+.navbar-burger:hover {
+	background-color: rgba(0, 0, 0, 0.15)!important;
+}
+
+.burger-menu {
+	display: none;
+	border: 1px solid #d4d8ff;
+	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+	right: 15px;
+	position: absolute;
+	top: 60px;
+	z-index: 20;
+	background-color: white;
+	float: right;
+	min-width: 250px;
+}
+
+.burger-menu .is-active {
+	background-color: #dee6ff!important;
+	border-left: 4px solid #818cf8!important;
+	color: #0a0a0a!important;
+}
+
+.burger-menu .dropdown-item {
+	border-left: 4px solid white;
+}
+
+.burger-menu .dropdown-item:hover {
+	background-color: #b4bbff!important;
+	border-left: 4px solid #555;
+	color: black!important;
+}
+
+.burger-menu .devider {
+	margin: 0.5rem 0;
+}
+
+a.navbar-item:hover {
+	background: none;
+	color: #0a0a0a;
+	border-bottom: 2px solid #0a0a0a;;
+}
+
+a.navbar-item.is-active {
+	background: none;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+.welcome-card {
+	padding: 0px!important;
+}
+
+.welcome-column {
+	padding: 1px!important;
+}
+
+.welcome-box {
+	padding: 2rem!important;
+}
+
+
+.content.is-small {
+	font-size: 0.9em;
+}
+
+.box .title a  {
+	color: black;
+	display: inline-block;    
+	border-bottom: 1px solid black;    
+	padding-bottom: 2px;
+}
+
+.box .box-link {
+	color: black;
+	display: inline-block;    
+	border-bottom: 1px solid black;    
+	padding-bottom: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+

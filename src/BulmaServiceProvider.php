@@ -13,6 +13,9 @@ class BulmaServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        /**
+        * publish views
+        */
         $this->publishes([
             __DIR__.'/views/auth' => resource_path('views/auth'),
         ]);
@@ -25,6 +28,22 @@ class BulmaServiceProvider extends ServiceProvider
             __DIR__.'/views/vendor' => resource_path('views/vendor/notifications'),
         ]);
 
+
+        /**
+        * publish sass
+        */
+        $this->publishes([
+            __DIR__.'/sass' => resource_path('sass'),
+        ]);
+
+
+        /**
+        * publish webpack config
+        */
+        $this->publishes([
+            __DIR__.'/webpack' => base_path(),
+        ]);
+
     }
 
     /**
@@ -34,10 +53,6 @@ class BulmaServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('bulma', function($app)
-        {
-            return $this->app->make('Temich\Bulma\Bulma');
-        });
 
     }
 }

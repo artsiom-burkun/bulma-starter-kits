@@ -1,6 +1,6 @@
 {
     "name": "temich/bulma",
-    "description": "Starter Kits with Bulma",
+    "description": "Laravel Starter Kits with css framework Bulma",
     "keywords": ["start", "auth", "laravel", "bulma"],
     "license": "MIT",
     "authors": [
