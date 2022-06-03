@@ -14,6 +14,22 @@ class BulmaServiceProvider extends ServiceProvider
     public function boot()
     {
         /**
+        * publish webpack config
+        */
+        $this->publishes([
+            __DIR__.'/webpack' => base_path(),
+        ]);
+
+
+        /**
+        * publish sass
+        */
+        $this->publishes([
+            __DIR__.'/sass' => resource_path('sass'),
+        ]);
+
+
+        /**
         * publish views
         */
         $this->publishes([
@@ -29,20 +45,15 @@ class BulmaServiceProvider extends ServiceProvider
         ]);
 
 
+
         /**
-        * publish sass
+        * publish language files
         */
         $this->publishes([
-            __DIR__.'/sass' => resource_path('sass'),
+            __DIR__.'/lang' => resource_path('lang'),
         ]);
 
 
-        /**
-        * publish webpack config
-        */
-        $this->publishes([
-            __DIR__.'/webpack' => base_path(),
-        ]);
 
     }
 

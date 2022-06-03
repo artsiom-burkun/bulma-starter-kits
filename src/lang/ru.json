@@ -1,0 +1,35 @@
+{
+    "Статус сообщений": "!",
+    "passwords.reset": "Вы успешно сменили пароль!",
+    "passwords.sent": "Мы отправили вам на почту ссылку на сброс пароля!",
+    "passwords.throttled": "Подождите немного перед повтором попытки.",
+    "passwords.token": "Неверный токен смены пароля.",
+    "passwords.user": "Не удалось найти пользователя с таким почтовым адресом.",
+	
+	
+	"Сообщение об ошибке": "!",
+    "Whoops! Something went wrong.": "Упс! Что-то пошло не так:",
+
+	
+	"Сообщения письма о смене пароля": "!",
+    "Reset Password Notification": "Уведомление о сбросе пароля",
+    "Reset Password": "Сброс пароля",
+	"Whoops!": "Упс!",
+	"Hello!": "Здравствуйте!",
+	"Regards": "C уважением",
+	"All rights reserved.": "Все права защищены.",
+
+    "You are receiving this email because we received a password reset request for your account.": 
+    "Вы получили это письмо, потому что мы получили запрос на сброс пароля для вашего аккаунта",
+
+    "This password reset link will expire in :count minutes.": 
+    "Эта ссылка перестанет быть активной через :count минут.",
+
+    "If you did not request a password reset, no further action is required.":
+    "Если вы не делали запрос на сброс пароля, то не делайте никаких действий.",
+
+	"If you are having trouble clicking the reset button, copy and paste the URL below into your web browser:": 
+	"Если у вас проблемы с кнопкой сброса, то скопируйте и вставьте следующий URL в ваш браузер:"
+
+	
+}
