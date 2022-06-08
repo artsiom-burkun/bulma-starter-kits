@@ -16,5 +16,12 @@
 		"psr-4": {
 			"temich\\bulma\\": "src/"
 		 }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Temich\\Bulma\\BulmaServiceProvider"
+            ]
+        }
+    },
 }
