@@ -14,7 +14,7 @@
     },
 	"autoload": {
 		"psr-4": {
-			"temich\\bulma\\": "src/"
+			"Temich\\Bulma\\": "src/"
 		 }
     },
     "extra": {
