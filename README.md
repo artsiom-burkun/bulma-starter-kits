@@ -1,7 +1,7 @@
 # Laravel Bulma: Starter Kits with css framework Bulma
 
 Blade files with css framework Bulma as Starter Kits for another Laravel app.
-Replace standart views files by new Bulma-blade files.
+Replace standard views files by new Bulma-blade files.
 
 ## Installation
 
@@ -19,6 +19,8 @@ Get package through Composer:
 composer require temich/bulma
 ```
 
+**Note:** Laravel uses Package Auto-Discovery. So, you can skip 2 and 3 steps. Move forward to 4 stage.
+If you prefer to config package manually, just follow next steps with service provider and other.
 
 #### 2. Define the Service Provider
 
@@ -45,7 +47,7 @@ So, it's good point to change locale:
 'locale' => 'ru',
 ```
 
-You may use default locale or your own locale on you choice.
+You may use default locale or your own locale on your choice.
 
 
 #### 3. Add lines to `composer.json`
@@ -87,7 +89,7 @@ npm install bulma
 npm run dev
 ```
 
-**Note:** In some cases we have to download more dependences and get error.
+**Note:** In some cases we have to download more dependencies and get error.
 In this situation execute `npm run dev` one more time.
 
 
